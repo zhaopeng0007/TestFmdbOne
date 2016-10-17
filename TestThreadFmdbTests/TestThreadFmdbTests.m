@@ -22,6 +22,14 @@
 - (void)tearDown {
     // Put teardown code here. This method is called after the invocation of each test method in the class.
     [super tearDown];
+    
+    NSDictionary *bufferDic = @{@"key":@"adsff"};
+    
+    NSString *thisKey=[bufferDic objectForKey:@"dfasfassd"];
+    
+    [bufferDic setValue:@"DFASFSDF" forKey:thisKey];
+    
+    NSLog(@"this isdfa%@",thisKey);
 }
 
 - (void)testExample {
