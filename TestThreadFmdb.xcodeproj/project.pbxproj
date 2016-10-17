@@ -15,23 +15,6 @@
 		9D8B0ED11D2C055B005F3FB7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D8B0ECF1D2C055B005F3FB7 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		9D8B0ED81D2C055B005F3FB7 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 9D8B0EB61D2C055B005F3FB7 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 9D8B0EBD1D2C055B005F3FB7;
-			remoteInfo = TestThreadFmdb;
-		};
-		9D8B0EE31D2C055B005F3FB7 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 9D8B0EB61D2C055B005F3FB7 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 9D8B0EBD1D2C055B005F3FB7;
-			remoteInfo = TestThreadFmdb;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
 		9D8B0EBE1D2C055B005F3FB7 /* TestThreadFmdb.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestThreadFmdb.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D8B0EC21D2C055B005F3FB7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -43,26 +26,10 @@
 		9D8B0ECD1D2C055B005F3FB7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9D8B0ED01D2C055B005F3FB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9D8B0ED21D2C055B005F3FB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9D8B0ED71D2C055B005F3FB7 /* TestThreadFmdbTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestThreadFmdbTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		9D8B0EE21D2C055B005F3FB7 /* TestThreadFmdbUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestThreadFmdbUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		9D8B0EBB1D2C055B005F3FB7 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9D8B0ED41D2C055B005F3FB7 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9D8B0EDF1D2C055B005F3FB7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -84,8 +51,6 @@
 			isa = PBXGroup;
 			children = (
 				9D8B0EBE1D2C055B005F3FB7 /* TestThreadFmdb.app */,
-				9D8B0ED71D2C055B005F3FB7 /* TestThreadFmdbTests.xctest */,
-				9D8B0EE21D2C055B005F3FB7 /* TestThreadFmdbUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -134,42 +99,6 @@
 			productReference = 9D8B0EBE1D2C055B005F3FB7 /* TestThreadFmdb.app */;
 			productType = "com.apple.product-type.application";
 		};
-		9D8B0ED61D2C055B005F3FB7 /* TestThreadFmdbTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 9D8B0EEE1D2C055B005F3FB7 /* Build configuration list for PBXNativeTarget "TestThreadFmdbTests" */;
-			buildPhases = (
-				9D8B0ED31D2C055B005F3FB7 /* Sources */,
-				9D8B0ED41D2C055B005F3FB7 /* Frameworks */,
-				9D8B0ED51D2C055B005F3FB7 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				9D8B0ED91D2C055B005F3FB7 /* PBXTargetDependency */,
-			);
-			name = TestThreadFmdbTests;
-			productName = TestThreadFmdbTests;
-			productReference = 9D8B0ED71D2C055B005F3FB7 /* TestThreadFmdbTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		9D8B0EE11D2C055B005F3FB7 /* TestThreadFmdbUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 9D8B0EF11D2C055B005F3FB7 /* Build configuration list for PBXNativeTarget "TestThreadFmdbUITests" */;
-			buildPhases = (
-				9D8B0EDE1D2C055B005F3FB7 /* Sources */,
-				9D8B0EDF1D2C055B005F3FB7 /* Frameworks */,
-				9D8B0EE01D2C055B005F3FB7 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				9D8B0EE41D2C055B005F3FB7 /* PBXTargetDependency */,
-			);
-			name = TestThreadFmdbUITests;
-			productName = TestThreadFmdbUITests;
-			productReference = 9D8B0EE21D2C055B005F3FB7 /* TestThreadFmdbUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -181,14 +110,6 @@
 				TargetAttributes = {
 					9D8B0EBD1D2C055B005F3FB7 = {
 						CreatedOnToolsVersion = 7.3.1;
-					};
-					9D8B0ED61D2C055B005F3FB7 = {
-						CreatedOnToolsVersion = 7.3.1;
-						TestTargetID = 9D8B0EBD1D2C055B005F3FB7;
-					};
-					9D8B0EE11D2C055B005F3FB7 = {
-						CreatedOnToolsVersion = 7.3.1;
-						TestTargetID = 9D8B0EBD1D2C055B005F3FB7;
 					};
 				};
 			};
@@ -206,8 +127,6 @@
 			projectRoot = "";
 			targets = (
 				9D8B0EBD1D2C055B005F3FB7 /* TestThreadFmdb */,
-				9D8B0ED61D2C055B005F3FB7 /* TestThreadFmdbTests */,
-				9D8B0EE11D2C055B005F3FB7 /* TestThreadFmdbUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -220,20 +139,6 @@
 				9D8B0ED11D2C055B005F3FB7 /* LaunchScreen.storyboard in Resources */,
 				9D8B0ECE1D2C055B005F3FB7 /* Assets.xcassets in Resources */,
 				9D8B0ECC1D2C055B005F3FB7 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9D8B0ED51D2C055B005F3FB7 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9D8B0EE01D2C055B005F3FB7 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,34 +155,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9D8B0ED31D2C055B005F3FB7 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9D8B0EDE1D2C055B005F3FB7 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		9D8B0ED91D2C055B005F3FB7 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 9D8B0EBD1D2C055B005F3FB7 /* TestThreadFmdb */;
-			targetProxy = 9D8B0ED81D2C055B005F3FB7 /* PBXContainerItemProxy */;
-		};
-		9D8B0EE41D2C055B005F3FB7 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 9D8B0EBD1D2C055B005F3FB7 /* TestThreadFmdb */;
-			targetProxy = 9D8B0EE31D2C055B005F3FB7 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		9D8B0ECA1D2C055B005F3FB7 /* Main.storyboard */ = {
@@ -405,52 +283,6 @@
 			};
 			name = Release;
 		};
-		9D8B0EEF1D2C055B005F3FB7 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = TestThreadFmdbTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = zhaopeng.TestThreadFmdbTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestThreadFmdb.app/TestThreadFmdb";
-			};
-			name = Debug;
-		};
-		9D8B0EF01D2C055B005F3FB7 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = TestThreadFmdbTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = zhaopeng.TestThreadFmdbTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestThreadFmdb.app/TestThreadFmdb";
-			};
-			name = Release;
-		};
-		9D8B0EF21D2C055B005F3FB7 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = TestThreadFmdbUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = zhaopeng.TestThreadFmdbUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = TestThreadFmdb;
-			};
-			name = Debug;
-		};
-		9D8B0EF31D2C055B005F3FB7 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = TestThreadFmdbUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = zhaopeng.TestThreadFmdbUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = TestThreadFmdb;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -468,24 +300,6 @@
 			buildConfigurations = (
 				9D8B0EEC1D2C055B005F3FB7 /* Debug */,
 				9D8B0EED1D2C055B005F3FB7 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		9D8B0EEE1D2C055B005F3FB7 /* Build configuration list for PBXNativeTarget "TestThreadFmdbTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				9D8B0EEF1D2C055B005F3FB7 /* Debug */,
-				9D8B0EF01D2C055B005F3FB7 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		9D8B0EF11D2C055B005F3FB7 /* Build configuration list for PBXNativeTarget "TestThreadFmdbUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				9D8B0EF21D2C055B005F3FB7 /* Debug */,
-				9D8B0EF31D2C055B005F3FB7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
