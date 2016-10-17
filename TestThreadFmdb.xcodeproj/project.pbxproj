@@ -13,8 +13,6 @@
 		9D8B0ECC1D2C055B005F3FB7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D8B0ECA1D2C055B005F3FB7 /* Main.storyboard */; };
 		9D8B0ECE1D2C055B005F3FB7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D8B0ECD1D2C055B005F3FB7 /* Assets.xcassets */; };
 		9D8B0ED11D2C055B005F3FB7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D8B0ECF1D2C055B005F3FB7 /* LaunchScreen.storyboard */; };
-		9D8B0EDC1D2C055B005F3FB7 /* TestThreadFmdbTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D8B0EDB1D2C055B005F3FB7 /* TestThreadFmdbTests.m */; };
-		9D8B0EE71D2C055B005F3FB7 /* TestThreadFmdbUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D8B0EE61D2C055B005F3FB7 /* TestThreadFmdbUITests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,11 +44,7 @@
 		9D8B0ED01D2C055B005F3FB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9D8B0ED21D2C055B005F3FB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9D8B0ED71D2C055B005F3FB7 /* TestThreadFmdbTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestThreadFmdbTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		9D8B0EDB1D2C055B005F3FB7 /* TestThreadFmdbTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestThreadFmdbTests.m; sourceTree = "<group>"; };
-		9D8B0EDD1D2C055B005F3FB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9D8B0EE21D2C055B005F3FB7 /* TestThreadFmdbUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestThreadFmdbUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		9D8B0EE61D2C055B005F3FB7 /* TestThreadFmdbUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestThreadFmdbUITests.m; sourceTree = "<group>"; };
-		9D8B0EE81D2C055B005F3FB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,8 +76,6 @@
 			isa = PBXGroup;
 			children = (
 				9D8B0EC01D2C055B005F3FB7 /* TestThreadFmdb */,
-				9D8B0EDA1D2C055B005F3FB7 /* TestThreadFmdbTests */,
-				9D8B0EE51D2C055B005F3FB7 /* TestThreadFmdbUITests */,
 				9D8B0EBF1D2C055B005F3FB7 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -120,24 +112,6 @@
 				9D8B0EC21D2C055B005F3FB7 /* main.m */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		9D8B0EDA1D2C055B005F3FB7 /* TestThreadFmdbTests */ = {
-			isa = PBXGroup;
-			children = (
-				9D8B0EDB1D2C055B005F3FB7 /* TestThreadFmdbTests.m */,
-				9D8B0EDD1D2C055B005F3FB7 /* Info.plist */,
-			);
-			path = TestThreadFmdbTests;
-			sourceTree = "<group>";
-		};
-		9D8B0EE51D2C055B005F3FB7 /* TestThreadFmdbUITests */ = {
-			isa = PBXGroup;
-			children = (
-				9D8B0EE61D2C055B005F3FB7 /* TestThreadFmdbUITests.m */,
-				9D8B0EE81D2C055B005F3FB7 /* Info.plist */,
-			);
-			path = TestThreadFmdbUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -280,7 +254,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9D8B0EDC1D2C055B005F3FB7 /* TestThreadFmdbTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,7 +261,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9D8B0EE71D2C055B005F3FB7 /* TestThreadFmdbUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -498,6 +470,7 @@
 				9D8B0EED1D2C055B005F3FB7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9D8B0EEE1D2C055B005F3FB7 /* Build configuration list for PBXNativeTarget "TestThreadFmdbTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +479,7 @@
 				9D8B0EF01D2C055B005F3FB7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9D8B0EF11D2C055B005F3FB7 /* Build configuration list for PBXNativeTarget "TestThreadFmdbUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +488,7 @@
 				9D8B0EF31D2C055B005F3FB7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
